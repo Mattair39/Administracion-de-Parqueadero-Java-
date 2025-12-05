@@ -85,20 +85,21 @@ public class Parqueadero {
     // -----------------------------------------------------------------
 
     /**
-     * Crea un parqueadero con su informacion basica. <br>
-     * <b>post: </b> Se crea un parqueadero abierto con la tarifa establecida y el arreglo de puestos esta creado.
+     * Crea un parqueadero con su información básica. <br>
+     * <b>post:</b> Se crea un parqueadero abierto con la tarifa establecida
+     * y el arreglo de puestos inicializado.
      */
-    public Parqueadero( )
-    {
-        horaActual = HORA_INICIAL;
-        abierto = true;
-        tarifa = TARIFA_INICIAL;
-        caja = 0;
-        // Crea el arreglo de puestos e inicializa cada uno de ellos
-        puestos = new Puesto[TAMANO];
-        for( int i = 0; i < TAMANO; i++ )
-            puestos[ i ] = new Puesto(i );
+    public Parqueadero() {
+        this.horaActual = HORA_INICIAL;
+        this.abierto = true;
+        this.tarifa = TARIFA_INICIAL;
+        this.caja = 0;
 
+        // Crea el arreglo de puestos e inicializa cada uno de ellos
+        this.puestos = new Puesto[TAMANO];
+        for (int i = 0; i < TAMANO; i++) {
+            this.puestos[i] = new Puesto(i);
+        }
     }
 
     // -----------------------------------------------------------------

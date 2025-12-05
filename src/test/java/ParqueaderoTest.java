@@ -1,6 +1,8 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 
 import java.util.ArrayList;
 
@@ -445,5 +447,23 @@ public class ParqueaderoTest {
         assertEquals("Placa: FIRST", parqueadero.darPlacaCarro(0));
         assertEquals("Placa: SECOND", parqueadero.darPlacaCarro(1));
         assertEquals("No hay un carro en esta posicion", parqueadero.darPlacaCarro(2));
+    }
+
+    @Test
+    void testVisualizarCarrosParqueados() {
+        System.out.println(">>> EJECUTANDO testVisualizarCarrosParqueados"); // línea de prueba
+
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        PrintStream originalOut = System.out;
+        System.setOut(new PrintStream(outContent));
+
+        parqueadero.entrarCarro("ABC123");
+        parqueadero.visualizarCarrosParqueados();
+
+        System.setOut(originalOut); // Restaurar SIEMPRE la salida estándar
+
+        String output = outContent.toString();
+        assertTrue(output.contains("Carros parqueados"));
+        assertTrue(output.contains("ABC123"));
     }
 }

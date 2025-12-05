@@ -15,7 +15,7 @@ jobs:
     steps:
       # Paso 1: Clonar el repositorio
       - name: Checkout del código
-        uses: actions/checkout@v4 # Actualizado a la última versión
+        uses: actions/checkout@v4
 
       # Paso 2: Configurar JDK
       - name: Set up JDK 11

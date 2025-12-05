@@ -89,7 +89,7 @@
         <version>3.21.2</version>
         <configuration>
           <printFailingErrors>true</printFailingErrors>
-          <failOnViolation>false</failOnViolation> <!-- Para no bloquear el build -->
+          <failOnViolation>false</failOnViolation>
         </configuration>
         <executions>
           <execution>

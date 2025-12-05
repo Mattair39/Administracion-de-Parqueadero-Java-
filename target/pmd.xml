@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2025-12-04T23:19:13.289">
-<file name="/workspaces/Administracion-de-Parqueadero-Java-/src/main/java/Carro.java">
-<violation beginline="18" endline="18" begincolumn="17" endcolumn="26" rule="UnusedPrivateField" ruleset="Best Practices" class="Carro" variable="horaSalida" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
-Avoid unused private fields such as 'horaSalida'.
-</violation>
-</file>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2025-12-05T21:57:21.330">
 <file name="/workspaces/Administracion-de-Parqueadero-Java-/src/main/java/Main.java">
 <violation beginline="1" endline="1" begincolumn="1" endcolumn="33" rule="UnnecessaryImport" ruleset="Code Style" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
 Unused import 'java.awt.event.PaintEvent'
@@ -23,16 +18,16 @@ Avoid unused local variables such as 'ingresos'.
 <violation beginline="2" endline="2" begincolumn="1" endcolumn="22" rule="UnnecessaryImport" ruleset="Code Style" class="Parqueadero" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
 Unused import 'java.util.List'
 </violation>
-<violation beginline="277" endline="277" begincolumn="28" endcolumn="41" rule="UselessParentheses" ruleset="Code Style" class="Parqueadero" method="avanzarHora" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+<violation beginline="278" endline="278" begincolumn="28" endcolumn="41" rule="UselessParentheses" ruleset="Code Style" class="Parqueadero" method="avanzarHora" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
 Useless parentheses.
 </violation>
-<violation beginline="355" endline="355" begincolumn="17" endcolumn="71" rule="UselessParentheses" ruleset="Code Style" class="Parqueadero" method="metodo2" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+<violation beginline="356" endline="356" begincolumn="17" endcolumn="71" rule="UselessParentheses" ruleset="Code Style" class="Parqueadero" method="metodo2" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
 Useless parentheses.
 </violation>
-<violation beginline="402" endline="402" begincolumn="13" endcolumn="20" rule="UnusedLocalVariable" ruleset="Best Practices" class="Parqueadero" method="hayCarroMasDeOchoHoras" variable="maxHoras" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+<violation beginline="403" endline="403" begincolumn="13" endcolumn="20" rule="UnusedLocalVariable" ruleset="Best Practices" class="Parqueadero" method="hayCarroMasDeOchoHoras" variable="maxHoras" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
 Avoid unused local variables such as 'maxHoras'.
 </violation>
-<violation beginline="479" endline="481" begincolumn="17" endcolumn="17" rule="CollapsibleIfStatements" ruleset="Design" class="Parqueadero" method="contarCarrosQueComienzanConPlacaPB" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#collapsibleifstatements" priority="3">
+<violation beginline="480" endline="482" begincolumn="17" endcolumn="17" rule="CollapsibleIfStatements" ruleset="Design" class="Parqueadero" method="contarCarrosQueComienzanConPlacaPB" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#collapsibleifstatements" priority="3">
 These nested if statements could be combined
 </violation>
 </file>

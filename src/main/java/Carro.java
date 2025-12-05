@@ -15,7 +15,6 @@ public class Carro {
      * Hora de llegada del carro al parqueadero: valor entre 6 y 20.
      */
     private int horaLlegada;
-    private int horaSalida;
 
 
     // -----------------------------------------------------------------
